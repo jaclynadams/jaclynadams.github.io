@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Nexa Bold";
+  src: url('../fonts/Nexa Bold.otf?1342844418') format('opentype');
+}
+@font-face {
+  font-family: "Nexa Light";
+  src: url('../fonts/Nexa Light.otf?1342924244') format('opentype');
+}
+/* line 1, ../sass/partials/_base.scss */
+body {
+  font-family: 'Nexa Bold','Helvetica', sans-serif;
+  background-color: #dcdfea;
+}
+
+/* line 6, ../sass/partials/_base.scss */
+h1 {
+  color: #41414c;
+}
