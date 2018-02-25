@@ -4,6 +4,8 @@
   "description": "My personal websitse",
   "main": "index.html",
   "scripts": {
+    "start": "webpack-dev-server --devtool eval-source-map --history-api-fallback --open",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git+https://github.com/jaclynadams/jaclynadams.github.io.git",
@@ -18,18 +20,22 @@
     "babel-loader": "^7.1.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.10",
     "eslint": "^3.5.0",
     "eslint-config-airbnb": "^11.1.0",
     "eslint-plugin-import": "^1.15.0",
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-react": "^6.3.0",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.1"
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "webpack-dev-server": "^2.6.1"
   },
   "dependencies": {
-    "html-webpack-plugin": "^2.29.0",
+    "html-webpack-plugin": "^2.30.1",
     "path": "^0.12.7",
-    "webpack": "^3.4.1",
-    "webpack-dev-server": "^2.6.1"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.4.1"
   }
 }
